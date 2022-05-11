@@ -1,0 +1,131 @@
+/*
+*{               asterisk(*) is symbol that affect all element 
+    margin: 0;
+    padding: 0;
+}
+*/
+
+body{
+    background-color: grey;
+    color: #fff;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal; /* to affect the bold of the text */
+    /* same as above */
+    font: normal 16px Arial, Helvetica, sans-serif;
+
+    line-height: 1.5em;
+    /* Line spacing */
+
+    margin: 0;
+    /* margin is like spacing around element/border
+    
+    -Margin and padding shortcut
+
+    normal use
+     p{
+        margin-top:5px;
+        margin-bottom:5px;
+        margin-right:10px;
+        margin-left:10px;
+
+     }
+
+     shortcut
+     p{
+     margin:5px 10px 5px 10px;
+     the format is top right bottom left
+     }
+
+     event shorter shortcut
+    p{
+     margin:5px 10px;
+        you can use this format if the top margin is same with bottom, same goes to right and left
+    }
+    */
+
+
+}
+a{ /* Affect all links in here*/
+    text-decoration: none;
+    color: #333;
+}
+a:hover{ /* when the cursor on the link */
+    color: aqua;
+}
+
+a:active{ /* when clicked */
+    color:red;
+}
+
+a:visited{ /* after clicked */
+    color: azure;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    /* container is class to change width and another, margin auto is to set the section/div to middle */
+}
+
+.box-1{
+    background-color: #333;
+    color: #fff;
+
+    border-right: 5px red solid;
+    /* create border on the right the box, the format usually size color style */
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+
+    border: 5px red solid;
+    /* Above text is shortcut to create border if all of them is the same */
+    border-width: 3px;
+    /* the size of border */
+    border-bottom-width: 3px;
+    /* for spesific use */
+    border-top-style: dashed;
+
+    border: 5px red solid;
+    /* put in bottom to overwrite */
+
+    padding: 20px;
+    /* padding is like spacing inside border */
+
+    margin: 20px 0;
+    /* margin is spacing outside border */
+}
+.box-1 h1{ /*use this element to spesifically change h1 in box-1 */
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration :underline;
+    text-transform: uppercase; /* to change the text like uppercase, lowercase etc */
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2{
+    border: 3px dotted lightcyan;
+    padding: 20px;
+    margin: 20px 0;
+
+}
+.categories{
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 15px; /* affect the curve */
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: square;
+    list-style: none;
+    /* change the bullet style */
+
+}
