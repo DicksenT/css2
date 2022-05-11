@@ -60,7 +60,7 @@ a:active{ /* when clicked */
 }
 
 a:visited{ /* after clicked */
-    color: azure;
+    color: teal;
 }
 .container{
     width: 80%;
